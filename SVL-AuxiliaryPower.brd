@@ -615,22 +615,22 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="DCC-OUT" library="SPCoast" package="MSTB2" value="" x="92.71" y="45.72" smashed="yes" rot="R90">
+<element name="DCC-OUT" library="SPCoast" package="MSTB2" value="0.200" x="92.71" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.758" y="41.402" size="1.4224" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="88.9099" y="42.8201" size="0.02" layer="27" rot="R90"/>
 </element>
-<element name="B-OUT" library="SPCoast" package="MSTB2" value="" x="92.71" y="20.32" smashed="yes" rot="R90">
+<element name="B-OUT" library="SPCoast" package="MSTB2" value="0.200" x="92.71" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.758" y="16.002" size="1.778" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="88.9099" y="17.4201" size="0.02" layer="27" rot="R90"/>
 </element>
 <element name="BOARD1" library="SPCoast" package="BOARD-SEEED10X10" value="" x="0" y="0"/>
-<element name="7809" library="SPCoast" package="LM2596-MODULE" value="" x="50.8" y="69.85"/>
-<element name="7805" library="SPCoast" package="LM2596-MODULE" value="" x="50.8" y="20.32"/>
+<element name="7809" library="SPCoast" package="LM2596-MODULE" value="LM2596-Module" x="50.8" y="69.85"/>
+<element name="7805" library="SPCoast" package="LM2596-MODULE" value="LM2596-Module" x="50.8" y="20.32"/>
 <element name="B1" library="rectifier" package="KBL" value="RECTIFIER-KBL" x="8.89" y="53.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-1.27" y="47.625" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="NAME" x="8.001" y="54.61" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="SW1" library="SPCoast" package="SWITCH-SPDT-508" value="" x="12.7" y="87.63" smashed="yes" rot="R90">
+<element name="SW1" library="SPCoast" package="SWITCH-SPDT-508" value="SPDT" x="12.7" y="87.63" smashed="yes" rot="R90">
 <attribute name="NAME" x="-1.27" y="84.709" size="1.778" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="18.415" y="81.28" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -646,11 +646,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="92.075" y="31.369" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="89.535" y="26.3652" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="DC-IN" library="SPCoast" package="MSTB2" value="" x="6.985" y="73.66" smashed="yes" rot="R270">
+<element name="DC-IN" library="SPCoast" package="MSTB2" value="0.200" x="6.985" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.937" y="77.978" size="1.778" layer="25" font="vector" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="10.7851" y="76.5599" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="A-OUT" library="SPCoast" package="MSTB2" value="" x="92.71" y="76.2" smashed="yes" rot="R90">
+<element name="A-OUT" library="SPCoast" package="MSTB2" value="0.200" x="92.71" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.758" y="71.882" size="1.778" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="88.9099" y="73.3001" size="0.02" layer="27" rot="R90"/>
 </element>

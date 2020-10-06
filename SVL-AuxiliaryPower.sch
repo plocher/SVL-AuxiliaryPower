@@ -4795,25 +4795,25 @@ Source: http://www.diotec.com/pdf/s40.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
-<part name="DCC-OUT" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK"/>
-<part name="B-OUT" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK"/>
+<part name="DCC-OUT" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK" value="0.200"/>
+<part name="B-OUT" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK" value="0.200"/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="100X100"/>
-<part name="7809" library="SPCoast" deviceset="VREG_78XX" device="LM2596"/>
-<part name="7805" library="SPCoast" deviceset="VREG_78XX" device="LM2596"/>
+<part name="7809" library="SPCoast" deviceset="VREG_78XX" device="LM2596" value="LM2596-Module"/>
+<part name="7805" library="SPCoast" deviceset="VREG_78XX" device="LM2596" value="LM2596-Module"/>
 <part name="B1" library="rectifier" deviceset="RECTIFIER-" device="KBL" value="RECTIFIER-KBL"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="SW1" library="SPCoast" deviceset="SWITCH-SPST" device="PTH-508"/>
+<part name="SW1" library="SPCoast" deviceset="SWITCH-SPST" device="PTH-508" value="SPDT"/>
 <part name="C1" library="SPCoast" deviceset="CAP-POL*" device="PTH-5MM" value="1000uF"/>
 <part name="C3" library="SPCoast" deviceset="CAP*" device="PTH1" value="0.1uF"/>
 <part name="C4" library="SPCoast" deviceset="CAP*" device="PTH1" value="0.1uF"/>
 <part name="C5" library="SPCoast" deviceset="CAP*" device="PTH1" value="0.1uF"/>
 <part name="F2" library="SPCoast" deviceset="PICOFUSE" device="POLY" value="1A Fuse"/>
 <part name="F3" library="SPCoast" deviceset="PICOFUSE" device="POLY" value="1A Fuse"/>
-<part name="DC-IN" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK"/>
+<part name="DC-IN" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK" value="0.200"/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
-<part name="A-OUT" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK"/>
+<part name="A-OUT" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK" value="0.200"/>
 <part name="F5" library="SPCoast" deviceset="PICOFUSE" device="POLY" value="1A Fuse"/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
